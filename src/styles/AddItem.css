@@ -1,0 +1,61 @@
+.addItem {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4%;
+}
+
+.addItemForm {
+  width: 80%;
+  padding: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(211, 233, 253);
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+label {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.btn-add {
+  background-color: green;
+  color: aliceblue;
+  height: 30px;
+  width: 20%;
+  margin-top: 2%;
+  border: 1px solid white;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  display: block;
+}
+
+.no-items {
+  width: 50%;
+  padding: 1%;
+  display: flex;
+  margin: auto;
+  margin-top: 3%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(211, 233, 253);
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}

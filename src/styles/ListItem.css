@@ -1,0 +1,41 @@
+.listItem {
+  width: 80%;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.items {
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  /* border: 1px solid gray; */
+  border-radius: 40px;
+  padding: 20px;
+  background-color: rgb(211, 233, 253);
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+th {
+  padding: 10px;
+}
+
+td {
+  padding: 5px;
+}
+
+.btn-delete {
+  background-color: rgb(110, 8, 8);
+  color: aliceblue;
+  width: 100%;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
