@@ -59,3 +59,13 @@ label {
   -ms-border-radius: 40px;
   -o-border-radius: 40px;
 }
+
+@media screen and (max-width: 640px) {
+  .addItem {
+    width: 90vw;
+  }
+
+  .addItemForm {
+    width: 90%;
+  }
+}
