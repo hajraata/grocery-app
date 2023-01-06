@@ -55,7 +55,7 @@ function ListItem({ listItems, onDeleteItem }) {
   } else {
     return (
       <div className="no-items">
-        <h3 className="no-items-heading">No items in your list yet</h3>
+        <h5 className="no-items-heading">No items in your list yet</h5>
       </div>
     );
   }
